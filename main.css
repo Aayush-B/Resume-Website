@@ -144,11 +144,11 @@ section i{
     margin-top: 25px;
 }
 
-.skill-level-80{
+.skill-level-orange{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	width: 80%;
+	width: 0%;
 	height: inherit;
 	background-color: tomato;
 	text-align: left;
@@ -156,23 +156,11 @@ section i{
 	box-sizing: border-box;
 }
 
-.skill-level-60{
+.skill-level-blue{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	width: 60%;
-	height: inherit;
-	background-color: #2857a4;
-	text-align: left;
-	padding-left: 20px;
-	box-sizing: border-box;
-}
-
-.skill-level-70{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	width: 70%;
+	width: 0%;
 	height: inherit;
 	background-color: #2857a4;
 	text-align: left;

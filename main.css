@@ -404,7 +404,7 @@ a{
 #swiggy-logo{
 	display: inline-block;
 	background-image: url("media/Swiggy.png");
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 	width:30%;
 	height: 100px;

@@ -12,14 +12,14 @@ pipeline{
 		stage('Remove existing project from server'){
 			steps{
 				sh 'echo cleaning-up'
-				sh 'sudo ./clean-up.sh'
+				sh 'sudo bash clean-up.sh'
 			}
 		}
 
 		stage('Deploy to server') {
 			steps{
 					sh 'echo deploying'
-					sh 'sudo ./deploy.sh'
+					sh 'sudo bash deploy.sh'
 				}
 			}
 			

@@ -207,7 +207,7 @@ section i{
 }
 
 #project-1 .hover-change{
-	background-image:url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png") ;
+	background-image:url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png") ;
 	background-size:contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -264,7 +264,7 @@ section i{
 }
 
 #project-4 .hover-change{
-	background-image:url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png") ;
+	background-image:url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png") ;
 	background-size:contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -287,29 +287,29 @@ a{
 }
 
 #project-1 .hover-change:hover{
-	background-color:rgba(128,128,128,0.4);
-	color:rgb(74, 81, 87);
+	background-color:rgba(29, 29, 29, 0.4);
+	color:whitesmoke;
 	font-weight: 600;
 	box-shadow:0px 0px 8px 2px PowderBlue;
 }
 
 #project-2 .hover-change:hover{
-	background-color:rgba(128,128,128,0.4);
+	background-color:rgba(29, 29, 29, 0.4);
 	color:whitesmoke;
 	font-weight: 600;
 	box-shadow:0px 0px 8px 2px PowderBlue;
 }
 
 #project-3 .hover-change:hover{
-	background-color:rgba(128,128,128,0.4);
+	background-color:rgba(29, 29, 29, 0.4);
 	color:whitesmoke;
 	font-weight: 600;
 	box-shadow:0px 0px 8px 2px PowderBlue;
 }
 
 #project-4 .hover-change:hover{
-	background-color:rgba(128,128,128,0.4);
-	color:rgb(74, 81, 87);
+	background-color:rgba(29, 29, 29, 0.4);
+	color:whitesmoke;
 	font-weight: 600;
 	box-shadow:0px 0px 8px 2px PowderBlue;
 }

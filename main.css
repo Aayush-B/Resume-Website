@@ -15,6 +15,11 @@ body{
 	box-sizing: border-box;
 }
 
+.bold-colored-text{
+	font-weight: 600;
+	color: #2857a4;
+}
+
 .text-left{
 	text-align: left;
 }
@@ -109,8 +114,8 @@ section:nth-child(2n){
 	padding: 10px;
 	margin-top: -100px;
 	box-sizing: border-box;
-	font-size: 20px;
-	color: grey;
+	font-size: 25px;
+	color: rgb(105, 98, 98);
 }
 
 .section-heading{
@@ -141,7 +146,9 @@ section i{
     border-radius: 20px;
     box-shadow: 1px 1px 5px 1px darkgrey inset;
     overflow: hidden;
-    margin-top: 25px;
+	margin-top: 25px;
+	margin-left: 10px ;
+	margin-right: 10px;
 }
 
 .skill-level-orange{
@@ -170,8 +177,8 @@ section i{
 
 .skill-title{
 	color: white;
-	font-weight: 400;
-	font-size: 17px;
+	font-weight: 700;
+	font-size: 18px;
 }
 
 #all-skills{
@@ -214,12 +221,50 @@ section i{
 	margin-left: 5rem;
 	margin-right: 5rem;
 	font-size: 30px;
-	color:rgba(255,255,255,0);
+	color:rgba(255, 255, 255, 0);
 	transition:background-color 0.4s, box-shadow 0.4s, color 0.4s;
 }
 
 #project-2 .hover-change{
 	background-image:url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png") ;
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 80px;
+	height: 15rem;
+	width: 15rem;
+	border-radius: 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 5rem;
+	margin-right: 5rem;
+	font-size: 30px;
+	color:rgba(255,255,255,0);
+	transition:background-color 0.4s, box-shadow 0.4s, color 0.4s;
+}
+
+#project-3 .hover-change{
+	background-image:url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png") ;
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 80px;
+	height: 15rem;
+	width: 15rem;
+	border-radius: 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 5rem;
+	margin-right: 5rem;
+	font-size: 30px;
+	color:rgba(255,255,255,0);
+	transition:background-color 0.4s, box-shadow 0.4s, color 0.4s;
+}
+
+#project-4 .hover-change{
+	background-image:url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png") ;
 	background-size:contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -243,13 +288,29 @@ a{
 
 #project-1 .hover-change:hover{
 	background-color:rgba(128,128,128,0.4);
-	color:black;
+	color:rgb(74, 81, 87);
+	font-weight: 600;
 	box-shadow:0px 0px 8px 2px PowderBlue;
 }
 
 #project-2 .hover-change:hover{
 	background-color:rgba(128,128,128,0.4);
-	color:black;
+	color:whitesmoke;
+	font-weight: 600;
+	box-shadow:0px 0px 8px 2px PowderBlue;
+}
+
+#project-3 .hover-change:hover{
+	background-color:rgba(128,128,128,0.4);
+	color:whitesmoke;
+	font-weight: 600;
+	box-shadow:0px 0px 8px 2px PowderBlue;
+}
+
+#project-4 .hover-change:hover{
+	background-color:rgba(128,128,128,0.4);
+	color:rgb(74, 81, 87);
+	font-weight: 600;
 	box-shadow:0px 0px 8px 2px PowderBlue;
 }
 

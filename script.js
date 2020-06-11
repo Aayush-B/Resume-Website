@@ -85,5 +85,3 @@ function autoFillSkills(){
 
 window.addEventListener('scroll', autoFillSkills) ;
 
-
-

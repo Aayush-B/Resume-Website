@@ -456,7 +456,7 @@ a{
 	background-image: url("media/Amazon.png");
 	background-size: cover;
 	background-repeat: no-repeat;
-	width:35%;
+	width:38%;
 	height: 120px;
 	margin-top: 5%;
 	margin-left: 5%;
@@ -529,7 +529,7 @@ a{
 
 	#timeline-slider{
 		left: 48%;
-	}	
+	}
 }
 
 @media screen and (max-width:768px){
@@ -539,7 +539,7 @@ a{
 
 	#timeline-slider{
 		left: 6.7%;
-	}	
+	}
 
 	.timeline-item{
 		position: relative;
@@ -600,7 +600,7 @@ a{
 		flex-direction: column;
 		justify-content: space-around;
 		align-items: center;
-	}	
+	}
 
 	#contact-form{
 		margin-top: 50px;

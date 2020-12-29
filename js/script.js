@@ -6,7 +6,7 @@ for(let i=0;i<navBarLinks.length;i++){
     navBarLinks[i].addEventListener('click',function(event){
         event.preventDefault() ;
     }) ;
-} 
+}
 
 for(let i=0;i<navBarLinks.length;i++){
     navBarLinks[i].addEventListener('click',function(event){
@@ -15,9 +15,9 @@ for(let i=0;i<navBarLinks.length;i++){
         var scroller=setInterval(function(){
             if(currPos>=targetPos){
                 clearInterval(scroller) ;
-                return ; 
+                return ;
             }
-    
+
             window.scrollBy(0,20) ;
             currPos+=20 ;
         },5) ;
@@ -55,7 +55,7 @@ function fillSkill(skillBar){
 } ;
 
 function autoFillSkills(){
-	
+
 	for(let i=0;i<skillsBlue.length;i++)
     {
         if((skillsBlue[i].getBoundingClientRect().top<=window.innerHeight-skillsBlue[i].getBoundingClientRect().height)&&(!blueFilledTracker[i])&&(skillsBlue[i].getBoundingClientRect().top>=0)){
@@ -84,4 +84,3 @@ function autoFillSkills(){
 }
 
 window.addEventListener('scroll', autoFillSkills) ;
-

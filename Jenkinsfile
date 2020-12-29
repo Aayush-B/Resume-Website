@@ -11,8 +11,8 @@ pipeline{
 
 		stage('Remove existing project from server'){
 			steps{
-				sh 'echo cleaning-up'
-				sh 'sudo bash clean-up.sh'
+				sh 'echo cleaning up'
+				sh 'sudo bash cleanup.sh'
 			}
 		}
 

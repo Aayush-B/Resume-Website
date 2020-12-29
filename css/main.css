@@ -3,7 +3,7 @@ body{
 }
 
 #body-header{
-	background-image: url("media/Header-Background");
+	background-image: url("../media/header");
 	background-attachment: fixed ;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -442,7 +442,7 @@ a{
 
 #ceeri-logo{
 	display: inline-block;
-	background-image: url("media/CEERI.png");
+	background-image: url("media/ceeri.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	width:30%;
@@ -453,7 +453,7 @@ a{
 
 #amazon-logo{
 	display: inline-block;
-	background-image: url("media/Amazon.png");
+	background-image: url("media/amazon.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	width:38%;
@@ -464,7 +464,7 @@ a{
 
 #swiggy-logo{
 	display: inline-block;
-	background-image: url("media/Swiggy.png");
+	background-image: url("media/swiggy.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	width:30%;
@@ -501,7 +501,7 @@ a{
 
 #khaitan-logo{
 	display: inline-block;
-	background-image: url("media/Khaitan.png");
+	background-image: url("media/khaitan.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	width:30%;
@@ -512,7 +512,7 @@ a{
 
 #bits-logo{
 	display: inline-block;
-	background-image: url("media/BITS.png");
+	background-image: url("media/bits.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	width:30%;
@@ -575,7 +575,7 @@ a{
 
 	#amazon-logo{
 		display: inline-block;
-		background-image: url("media/Amazon.png");
+		background-image: url("media/amazon.png");
 		background-size: cover;
 		background-repeat: no-repeat;
 		width:35%;
@@ -586,7 +586,7 @@ a{
 
 	#swiggy-logo{
 		display: inline-block;
-		background-image: url("media/Swiggy.png");
+		background-image: url("media/swiggy.png");
 		background-size: contain;
 		background-repeat: no-repeat;
 		width:30%;

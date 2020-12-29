@@ -1,4 +1,4 @@
-echo "Deploying to server"
+echo "deploying to server"
 cd ./Resume-Website
 cp -r ./* /var/www/aayushb.com
 rm /var/www/aayushb.com/deploy.sh

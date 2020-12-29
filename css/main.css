@@ -396,9 +396,17 @@ a{
 	left: 60%;
 }
 
-#timeline-divider{
+#education-timeline-divider{
 	position:absolute;
 	height: 760px;
+	width: 0px;
+	border: 2px dashed skyblue;
+	left: 50%;
+}
+
+#experience-timeline-divider{
+	position:absolute;
+	height: 980px;
 	width: 0px;
 	border: 2px dashed skyblue;
 	left: 50%;
@@ -430,6 +438,15 @@ a{
 	border-bottom: 2px dashed skyblue;
 }
 
+.timeline-pointer-4{
+	position: absolute;
+	height: 175px;
+	width: 5%;
+	top: 840px;
+	left: 50%;
+	border-bottom: 2px dashed skyblue;
+}
+
 #timeline-slider{
 	position: sticky;
 	width: 7%;
@@ -442,35 +459,46 @@ a{
 
 #ceeri-logo{
 	display: inline-block;
-	background-image: url("media/ceeri.png");
+	background-image: url("../media/ceeri.png");
 	background-size: contain;
 	background-repeat: no-repeat;
-	width:30%;
-	height: 100px;
+	width:33%;
+	height: 110px;
 	margin-top: 5%;
 	margin-left: 5%;
 }
 
 #amazon-logo{
 	display: inline-block;
-	background-image: url("media/amazon.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	width:38%;
-	height: 120px;
-	margin-top: 5%;
-	margin-left: 5%;
-}
-
-#swiggy-logo{
-	display: inline-block;
-	background-image: url("media/swiggy.png");
+	background-image: url("../media/amazon.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	width:30%;
 	height: 100px;
 	margin-top: 5%;
 	margin-left: 5%;
+}
+
+#swiggy-logo{
+	display: inline-block;
+	background-image: url("../media/swiggy.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width:35%;
+	height: 120px;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+#dotpe-logo{
+	display: inline-block;
+	background-image: url("../media/dotpe.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+    width:28%;
+	height: 90px;
+	margin-top: 5%;
+	margin-left: 5.7%;
 }
 
 .job-header{
@@ -501,7 +529,7 @@ a{
 
 #khaitan-logo{
 	display: inline-block;
-	background-image: url("media/khaitan.png");
+	background-image: url("../media/khaitan.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	width:30%;
@@ -512,7 +540,7 @@ a{
 
 #bits-logo{
 	display: inline-block;
-	background-image: url("media/bits.png");
+	background-image: url("../media/bits.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	width:30%;
@@ -573,27 +601,14 @@ a{
 		border-bottom: 2px dashed skyblue;
 	}
 
-	#amazon-logo{
-		display: inline-block;
-		background-image: url("media/amazon.png");
-		background-size: cover;
-		background-repeat: no-repeat;
-		width:35%;
-		height: 120px;
-		margin-top: 5%;
-		margin-left: 0%;
-	}
-
-	#swiggy-logo{
-		display: inline-block;
-		background-image: url("media/swiggy.png");
-		background-size: contain;
-		background-repeat: no-repeat;
-		width:30%;
-		height: 100px;
-		margin-top: 5%;
-		margin-left: 5%;
-	}
+    .timeline-pointer-4{
+        position: absolute;
+		height: 175px;
+		width: 20%;
+		top: 840px;
+		left: 10%;
+		border-bottom: 2px dashed skyblue;
+    }
 
 	#contact-container{
 		display: flex;
